@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>MyBank Mortgage</title>
+</head>
+<body>
+    <h1 id="title">Mortgage Application</h1>
+
+<div id="form-outer">
+  <p id="description">
+  Fill out the following form to be considered for a mortage with MyBank.
+  </p>
+  <form>
+    
+    <div class="form-row">
+      <div class="labels">
+        <label for="name-label">Name:</label>
+      </div>
+      <div class="right-tab">
+        <input type="text" id="name" required placeholder="James Halpert">
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <div class="labels">
+        <label for="email-label">Email:</label>
+      </div>
+      <div class="right-tab">
+        <input type="email" id="email" required placeholder="jim@dundermifflin.com"><br>
+      </div>
+    </div>
+        
+    <div class="form-row">
+      <div class="labels">
+        <label for="current-residence">What is your current residency?</label>
+      </div>
+      <div class="right-tab">
+        <select name="current-residence" id="dropdown">
+          <option value="own">Homeowner</option>
+          <option value="rent">Tenant/rent</option>
+          <option value="cohabit">Live with family/friends</option>
+          <option value="none">None of the above</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="labels">
+        <label for="number-label">Loan Amount:</label>
+      </div>
+      <div class="right-tab">
+        <input type="number" id="number" min="10000" max="10000000" placeholder="250,000"><br>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="labels">
+        <label for="loan-type">Length of Loan</label>
+      </div>
+      <div class="right-tab">
+        <input type="radio" name="loan-type" value="15" checked> 15-year<br>
+        <input type="radio" name="loan-type" value="20"> 20-year<br>
+        <input type="radio" name="loan-type" value="30"> 30-year<br>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="labels">
+        <label for="income-label">Yearly Salary:</label>
+      </div>
+      <div class="right-tab">
+        <input type="number" id="salary" min="1" max="10000000" placeholder="50,000">
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <div class="labels">
+        <label for="additional-income">Additional Income:</label>
+      </div>
+      <div class="right-tab">
+        <ul class="ul-stacked">
+          <li class="li-stacked"><label><input type="checkbox" name="income" value="Stock">Stock Options</label></li>
+          <li class="li-stacked"><label><input type="checkbox" name="income" value="Bonus">Regular Bonuses</label></li>
+          <li class="li-stacked"><label><input type="checkbox" name="income" value="Tips">Tips</label></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <div class="labels">
+        <label for="additional-comments">Additional comments:</label>
+      </div>
+      <div class="right-tab">
+        <textarea id="comments" name="comments" rows="10" cols="60">      
+        </textarea><br>
+      </div>
+    </div>
+    
+    <button id="submit" type="submit">Submit</button>
+</form>
+  </div>
+</body>
+</html>

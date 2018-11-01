@@ -1,0 +1,34 @@
+.boxes {
+    width: 500px;
+    height: 200px;
+    
+    /* Setting all 3 boxes to absolute will make them overlap all in the upper left corner with box3 being on top
+    position: absolute;
+    */
+}
+
+#box1 {
+    background-color: aqua;
+    
+}
+
+#box2 {
+    background-color: darkgoldenrod;
+    
+    
+    /*
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    */
+
+    /*
+    position: relative;  setting this to relative won't do much with additional position parameters
+    top: 50px;
+    left: 150px;
+    */
+}
+
+#box3 {
+    background-color: lightgreen;
+}

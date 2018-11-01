@@ -1,0 +1,42 @@
+html,
+body {
+  background-color: #119ac4;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  min-width: 320px;
+}
+
+#form-outer {
+  background-color: white;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1000px;
+  border-radius: 10px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+}
+
+.right-tab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.ul-stacked {
+  list-style-type: none;
+}
+
+.li-stacked {
+  position: relative;
+  left: -38px;
+  top: -17px;
+  display: block;
+}
