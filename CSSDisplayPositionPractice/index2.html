@@ -16,7 +16,7 @@
             of the page by default. For example, these three boxes are made through
             div elements and are block level by default. Each box is on its own line.
         </p>
-        <div class="boxes">       
+        <div>       
             <div class="box1"></div>
             <div class="box2"></div>
             <div class="box3"></div>
@@ -28,8 +28,9 @@
         <p>
             Setting the blocks to inline-block will allow them to be on the same "line" and allow
             them to be next to other elements. The element only takes up as much space as is needed.
+            Inline-block allows the objects' height and width to be set.
         </p>
-        <div class="boxes">       
+        <div>       
             <div class="box1 inline-boxes"></div>
             <div class="box2 inline-boxes"></div>
             <div class="box3 inline-boxes"></div>
@@ -51,6 +52,19 @@
         <img class="images block-images" src="..\img\soccer.png">
         <img class="images block-images" src="..\img\football.png">
         <img class="images block-images" src="..\img\basketball.png">
+    </div>
+
+    <div class="example">
+        <h2>Float</h2>
+        <p>
+            Float will move an item to the extreme left or right of the page. Here the brown box
+            is floated right and the green box moves up to take its place.
+        </p>
+        <div>       
+            <div class="box1"></div>
+            <div class="box2" id="float-right"></div>
+            <div class="box3"></div>
+        </div>
     </div>
 </body>
 </html>

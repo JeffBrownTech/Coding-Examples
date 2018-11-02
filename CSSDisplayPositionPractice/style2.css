@@ -33,3 +33,7 @@
     display: block;
     margin-bottom: 20px;
 }
+
+#float-right {
+    float: right;
+}
