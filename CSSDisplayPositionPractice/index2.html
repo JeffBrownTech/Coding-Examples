@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="style2.css" />
+    <title>Display Practice</title>
+</head>
+<body>
+    <div class="example">
+        <h2>Display</h2>
+        <p>
+            There are several options for display: block, inline, and inline-block.
+            Some items are block level by default, meaning the take up the entire width
+            of the page by default. For example, these three boxes are made through
+            div elements and are block level by default. Each box is on its own line.
+        </p>
+        <div class="boxes">       
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
+    </div>
+
+    <div class="example">
+        <h2>Inline-Block</h2>
+        <p>
+            Setting the blocks to inline-block will allow them to be on the same "line" and allow
+            them to be next to other elements. The element only takes up as much space as is needed.
+        </p>
+        <div class="boxes">       
+            <div class="box1 inline-boxes"></div>
+            <div class="box2 inline-boxes"></div>
+            <div class="box3 inline-boxes"></div>
+        </div>
+    </div>
+
+    <div class="example">
+        <h2>Inline</h2>
+        <p>
+            Images are defaulted to inline, so nothing special needs to be done to put them on the same line.
+        </p>
+        <img class="images" src="..\img\soccer.png">
+        <img class="images" src="..\img\football.png">
+        <img class="images" src="..\img\basketball.png">
+
+        <p style="margin-top: 50px">
+            Settings the images to <strong>display: block</strong> will put each image on its own line.
+        </p>
+        <img class="images block-images" src="..\img\soccer.png">
+        <img class="images block-images" src="..\img\football.png">
+        <img class="images block-images" src="..\img\basketball.png">
+    </div>
+</body>
+</html>
