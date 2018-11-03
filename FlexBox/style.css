@@ -10,6 +10,10 @@ body {
     display: flex;
 }
 
+.inlineflex-container {
+    display: inline-flex;
+}
+
 .box {
     width: 75px;
     height: 75px;
