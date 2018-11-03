@@ -21,3 +21,17 @@ body {
     background-color: lightblue;
     border: 5px solid lightslategray;
 }
+
+#wrap {
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#wrap-reverse {
+    flex-wrap: wrap-reverse;
+    width: 50%;
+}
+
+#no-wrap {
+    width: 50%;
+}
