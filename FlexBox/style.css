@@ -8,7 +8,7 @@ body {
 
 .tall-container {
     background-color: lightslategray;
-    height: 150px;
+    height: 225px;
 }
 
 .flex-container {
@@ -96,4 +96,40 @@ body {
     text-align: center;
     background-color: lightblue;
     border: 5px solid lightslategray;
+}
+
+#flex-start {
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#flex-end {
+    align-content: flex-end;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#align-center {
+    align-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#align-space-between {
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#align-space-around {
+    align-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#align-stretch {
+    align-content: stretch;
+    flex-wrap: wrap;
+    width: 50%;
 }
