@@ -6,6 +6,11 @@ body {
     background-color: lightslategray;
 }
 
+.tall-container {
+    background-color: lightslategray;
+    height: 150px;
+}
+
 .flex-container {
     display: flex;
 }
@@ -34,4 +39,61 @@ body {
 
 #no-wrap {
     width: 50%;
+}
+
+#flex-start {
+    justify-content: flex-start;
+}
+
+#flex-end {
+    justify-content: flex-end;
+}
+
+#center {
+    justify-content: center;
+}
+
+#space-between {
+    justify-content: space-between;
+}
+
+#space-around {
+    justify-content: space-around;
+}
+
+#flex-start {
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#flex-end {
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#center {
+    align-items: center;
+    justify-content: center;
+}
+
+#baseline {
+    align-items: baseline;
+    justify-content: center;
+}
+
+#tall-box {
+    height: 100px;
+}
+
+#stretch {
+    align-items: stretch;
+    justify-content: center;
+}
+
+.auto-height-box {
+    height: auto;
+    width: 75px;
+    text-align: center;
+    background-color: lightblue;
+    border: 5px solid lightslategray;
 }
